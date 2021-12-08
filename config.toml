@@ -16,6 +16,3 @@ theme = 'tale'
         title = 'Posts'
         url = '/posts/'
         weight = 0
-    
-[params]
-    css = ["css/estilos.css"]
