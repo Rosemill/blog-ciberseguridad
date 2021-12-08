@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog Ciberseguridad</title>
-    <link>http://example.org/</link>
+    <link>https://rosemill.github.io/blog-ciberseguridad/</link>
     <description>Recent content on Blog Ciberseguridad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 08 Dec 2021 12:05:23 +0100</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Dec 2021 12:05:23 +0100</lastBuildDate><atom:link href="https://rosemill.github.io/blog-ciberseguridad/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Primer Post</title>
-      <link>http://example.org/posts/primer-post/</link>
+      <link>https://rosemill.github.io/blog-ciberseguridad/posts/primer-post/</link>
       <pubDate>Wed, 08 Dec 2021 12:05:23 +0100</pubDate>
       
-      <guid>http://example.org/posts/primer-post/</guid>
+      <guid>https://rosemill.github.io/blog-ciberseguridad/posts/primer-post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contacto</title>
-      <link>http://example.org/contacto/</link>
+      <link>https://rosemill.github.io/blog-ciberseguridad/contacto/</link>
       <pubDate>Wed, 08 Dec 2021 11:58:52 +0100</pubDate>
       
-      <guid>http://example.org/contacto/</guid>
+      <guid>https://rosemill.github.io/blog-ciberseguridad/contacto/</guid>
       <description>Este es un sitio web para compartir noticias y trucos de ciberseguridad.
 Seguro que aprendes algo nuevo para poder formarte en este sector.</description>
     </item>

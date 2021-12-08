@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://rosemill.github.io/blog-ciberseguridad/</loc>
     <lastmod>2021-12-08T12:05:23+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://rosemill.github.io/blog-ciberseguridad/posts/</loc>
     <lastmod>2021-12-08T12:05:23+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/primer-post/</loc>
+    <loc>https://rosemill.github.io/blog-ciberseguridad/posts/primer-post/</loc>
     <lastmod>2021-12-08T12:05:23+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/contacto/</loc>
+    <loc>https://rosemill.github.io/blog-ciberseguridad/contacto/</loc>
     <lastmod>2021-12-08T11:58:52+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://rosemill.github.io/blog-ciberseguridad/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://rosemill.github.io/blog-ciberseguridad/tags/</loc>
   </url>
 </urlset>
