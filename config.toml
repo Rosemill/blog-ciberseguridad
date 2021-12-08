@@ -18,4 +18,4 @@ theme = 'tale'
         weight = 0
     
 [params]
-    css = ["css/estilos.css]
+    css = ["css/estilos.css"]
