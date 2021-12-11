@@ -6,14 +6,24 @@
     <description>Recent content in Posts on Blog Ciberseguridad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 08 Dec 2021 12:05:23 +0100</lastBuildDate><atom:link href="https://rosemill.github.io/blog-ciberseguridad/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Dec 2021 09:58:25 +0100</lastBuildDate><atom:link href="https://rosemill.github.io/blog-ciberseguridad/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Primer Post</title>
+      <title>Android vs IOS</title>
+      <link>https://rosemill.github.io/blog-ciberseguridad/posts/android-ios/</link>
+      <pubDate>Sat, 11 Dec 2021 09:58:25 +0100</pubDate>
+      
+      <guid>https://rosemill.github.io/blog-ciberseguridad/posts/android-ios/</guid>
+      <description>Android o iOS 🍎🆚🤖, ¿que es más seguro? Siempre se ha dicho los iPhones son más seguros que los dispositivos con sistemas basados en Android, pero ¿realmente es así?. En este post vamos a tratar de ver las diferencias entre los SO más usados en el ámbito de la seguridad.</description>
+    </item>
+    
+    <item>
+      <title>Hello world</title>
       <link>https://rosemill.github.io/blog-ciberseguridad/posts/primer-post/</link>
       <pubDate>Wed, 08 Dec 2021 12:05:23 +0100</pubDate>
       
       <guid>https://rosemill.github.io/blog-ciberseguridad/posts/primer-post/</guid>
-      <description></description>
+      <description>Este es un blog hecho con el generador de sitios estáticos HUGO. La intención de este blog, en el ámbito personal, es el aprendizaje de publicar páginas web de manera sencilla y seguir formándome en ámbito de la tecnología, además de compartir todo lo que aprenda en este proceso.
+Espero que te guste. 🤩</description>
     </item>
     
   </channel>

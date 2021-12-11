@@ -3,12 +3,15 @@ languageCode = 'es'
 title = 'Blog Ciberseguridad'
 theme = 'tale'
 
+[Params]
+    author = 'Rosemill'
+
 [menu]
     [[menu.main]]
-        identifier = 'contacto'
-        name = 'Contacto'
-        title = 'Contacto'
-        url = '/contacto/'
+        identifier = 'Sobre mí'
+        name = 'Sobre mí'
+        title = 'Sobre mí'
+        url = '/sobreMi/'
         weight = 0
     [[menu.main]]
         identifier = 'posts'
