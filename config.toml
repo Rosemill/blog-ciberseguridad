@@ -1,8 +1,8 @@
 baseURL = 'https://rosemill.github.io/blog-ciberseguridad/'
-languageCode = 'es'
+languageCode = 'en'
 title = 'Blog Ciberseguridad'
 theme = 'tale'
-defaultContentLanguage = "es"
+defaultContentLanguage = "en"
 
 [Author]
     name = "Rosemill"
