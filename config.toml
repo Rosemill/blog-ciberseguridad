@@ -9,10 +9,10 @@ defaultContentLanguage = "es"
 
 [menu]
     [[menu.main]]
-        identifier = 'Sobre mí'
-        name = 'Sobre mí'
-        title = 'Sobre mí'
-        url = '/sobreMi/'
+        identifier = 'About me'
+        name = 'About me'
+        title = 'About me'
+        url = '/aboutMe/'
         weight = 0
     [[menu.main]]
         identifier = 'posts'
