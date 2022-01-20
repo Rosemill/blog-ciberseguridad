@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Local File Inclusion (LFI) &middot; Blog Ciberseguridad</title>
+
+		
+		<link rel="stylesheet" href="/blog-ciberseguridad/css/style.css">
+		<link rel="stylesheet" href="/blog-ciberseguridad/css/fonts.css">
+		
+		<link rel="icon" href="favicon.ico" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/blog-ciberseguridad/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/blog-ciberseguridad/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/blog-ciberseguridad/images/apple-touch-icon.png">
+
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Blog Ciberseguridad" />
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/blog-ciberseguridad/">
+					
+						<h2 class="nav-title">Blog Ciberseguridad</h2>
+					
+				</a>
+				<ul>
+    
+    
+        <li>
+            <a href="/blog-ciberseguridad/aboutme/">
+                
+                <span>About me</span>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="/blog-ciberseguridad/posts/">
+                
+                <span>Posts</span>
+                
+            </a>
+        </li>
+    
+</ul>
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        Rosemill
+        <br>
+        <span>on&nbsp;</span><time datetime="2021-12-13 18:13:08 &#43;0100 CET">December 13, 2021</time>
+</div>
+
+		<h1 class="post-title">Local File Inclusion (LFI)</h1>
+<div class="post-line"></div>
+
+		
+
+		<h2 id="definición">Definición</h2>
+<p>Se trata de la vulnerabilidad que afecta a muchos servidores web que permite accedera archivos que no quieren que sean expuestos.</p>
+<h2 id="peligros">Peligros</h2>
+<p>Fácil acceso a archivos confidenciales, el más común /etc/passwd</p>
+<h2 id="lfi-a-qué-se-debe">LFI, ¿A qué se debe?</h2>
+<p>Para poder prácticar y entender mejor esta vulnerabilidad recomiendo usar la máquina bts_lab que cuenta con múltiples vulnerabilidades para aprender pentesting web, es fácil de instalar en kali linux o una máquina de ubuntu. Una vez instalado comprobaremos si el sitio es vulnerable a este ataque añadiendo cararcteres aleatorios después del enlace de ejemplo: http://localhost/index.php?file=&lsquo;nombreAleatorio&rsquo;. Si no sale un nada o algún warning es probable que sea vulnerable a RFI o LFI.</p>
+<p>Una vez comprobado escribimos la url de esta forma http://localhost/index.php?file=../../../../../../../../../etc/passwd. Al añadir dos puntos retrocedemos en el directorio del servidor, se añaden varios para asegurar que se llega al directiorio raiz y una vez hay se accede al archivo passwd que contiene todas las contraseñas de los usuarios del servidor.</p>
+<p>Esto se debe a que el archivo contiene código susceptible a ser cambiado:</p>
+<pre tabindex="0"><code>    &lt;?php
+        include $GET['página'];
+    ?&gt;
+</code></pre><p>El código correcto que no permite el cambio en el nombre de la página sería el siguiente:</p>
+<pre tabindex="0"><code>    &lt;?php
+        include ('página.php');
+    ?&gt;
+</code></pre>
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="/blog-ciberseguridad/posts/passwordmanagers/" class="left arrow">&#8592;</a>
+		<a href="/blog-ciberseguridad/posts/howtolearnbash/" class="right arrow">&#8594;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			
+			<span>
+			&copy; <time datetime="2022-01-20 17:40:18.8993394 &#43;0100 CET m=&#43;0.111075201">2022</time> Rosemill. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			</span>
+		</footer>
+
+    </body>
+</html>
