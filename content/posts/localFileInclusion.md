@@ -24,7 +24,7 @@ Esto se debe a que el archivo contiene código susceptible a ser cambiado:
         include $GET['página'];
     ?>
 ```
-El código correcto que no permite el cambio en el nombre de la página sería el siguiente
+El código correcto que no permite el cambio en el nombre de la página sería el siguiente:
 
 ```
     <?php
